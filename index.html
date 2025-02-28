@@ -33,7 +33,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     var email = document.getElementById("email").value;
     var data = {name: name, email: email};
 
-    fetch("https://script.google.com/macros/s/AKfycbxJwDeK-RwMgWCafPGAGMicGfVhAPQGy1UyhFNMCRiNolgD1TZTwQjAKbx9d8EeOfFzLA/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzgrJWImhY2AqUQ4t1hb8g5TL51pqgZVn1XqcKL2HWjDMoscwJ9FaqECAsKWR9Hv3MnLg/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
